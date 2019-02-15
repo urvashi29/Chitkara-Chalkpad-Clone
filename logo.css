@@ -1,90 +1,118 @@
 body {
-  
-    background: rgba(0,0,0,1);
+	background: rgba(0, 0, 0, 1);
 }
 
 .logo {
-    text-align: center;
+	text-align: center;
 }
 
 .log {
-    position: relative;
-    margin: 10px;
-    height: 100px;
+	position: relative;
+	margin: 10px;
+	height: 100px;
 }
 
-div h4{
-    text-align: center;
-    color: red;
-    text-transform: uppercase;
-    font-size: 20px;
-    height: 10px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    
+div h4 {
+	text-align: center;
+	color: red;
+	text-transform: uppercase;
+	font-size: 20px;
+	height: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .column {
-    float: left;
-    width: 15%;
-    height: 420px;
+	float: left;
+	width: 15%;
+	height: 420px;
 }
 
 .columnx {
-    float: left;
-    height: 420px;
-    background: rgba(255,255,255,1);
-    width: 35%;    
+	float: left;
+	height: 420px;
+	background: rgba(255, 255, 255, 1);
+	width: 35%;
+}
+
+.div-content {
+	color: red;
+	font-weight: bolder;
+	font-size: 20px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.div-c {
+	font-size: 15px;
+	padding-left: 30px;
+	padding-top: 10px;
+	text-transform: capitalize;
+}
+
+.columnx img {
+	margin-left: 30px;
+	width: 370px;
+	display: flex;
+	flex-direction: column;
+}
+
+.columnx span {
+	float: right;
+	margin-right: 70px;
+	margin-top: 10px;
 }
 
 .back {
-    background: #f2f2f2;
-    margin: 20px;
-    height: 330px;
-    padding-top: 10px;
+	background: #f2f2f2;
+	margin: 20px;
+	height: 330px;
+	padding-top: 10px;
 }
 
 .name {
-    padding: 20px;
-    color: dimgray;
-    text-transform: uppercase; 
-    font-size: 15px;
+	padding: 20px;
+	color: dimgray;
+	text-transform: uppercase;
+	font-size: 15px;
 }
+
 .enter {
-    margin: 7px auto;
-    width: 300px;
-    padding: 6px;
-    text-transform: uppercase;
+	margin: 7px auto;
+	width: 300px;
+	padding: 6px;
+	text-transform: uppercase;
 }
 
 .login {
-    text-align: center;
-    width: 300px;
-    color: white;
-    text-transform: uppercase;
-    background: red;
-    padding: 8px; 
+	text-align: center;
+	width: 300px;
+	color: white;
+	text-transform: uppercase;
+	background: red;
+	padding: 8px;
 }
 
-.forget{
-    padding-left: 20px;
-    color: red;
-    text-transform: uppercase;
-    font-size: 15px;
+.forget {
+	padding-left: 20px;
+	color: red;
+	text-transform: uppercase;
+	font-size: 15px;
 }
 
 #entry {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
-@media (max-width: 500px){
-    .enter {
-        width: 150px;
-    }
+@media (max-width: 500px) {
+	.enter {
+		width: 150px;
+	}
 }
 
 #val {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
+
 
 /*.slider {
     width: 800x;

@@ -447,11 +447,6 @@ img {
 .calender-image {
 	height: 310px;
 	width: 400px;
-	/*
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-*/
 	object-fit: cover;
 }
 
@@ -646,7 +641,7 @@ img {
 	height: 120px;
 	margin: 20px 0 0 150px;
 }
-
+/*
 .img-div {
 	display: flex;
 	flex-direction: column;
@@ -729,7 +724,7 @@ tr:hover {
 	height: 4px;
 	border: 0;
 }
-
+*/
 
 /*@media (max-width: 775px) {
     .curin {

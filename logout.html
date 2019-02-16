@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+      <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+      <link href="main.css" rel="stylesheet">
+   </head>
+   <body>
+      <div id="Logout">
+      </div>
+      <script type="text/babel">
+         class Logout extends React.Component {
+             render() {
+                 return (
+                 <div>
+                     <div className='div-img'><img className='img-div' src="chitkara-logo.png" /></div>
+                     <div className="table-div">
+                         <table className='div-table'>
+                             <tr>
+                                 <th>List of Activities performed</th>
+                                 <th>Displaying Results</th>
+                             </tr>
+                             <tr>
+                                 <td><strong>Activites Performed</strong></td>
+                                 <td><strong>Time</strong></td>
+                             </tr>
+                             <tr>
+                                 <td>Home &#187; Dashboard</td>
+                                 <td>21	&#8211;Jan	&#8211;2019 07&#58;04&#58;22</td>
+                             </tr>
+                         </table>
+                     <p className='div-p'>Thank You using Chitkara University ERP Portal</p>
+                         <div> <hr /></div>
+                    
+                     <p className='div-Ptag'>You have been logged out</p>
+                     <p className='div-Ptag'>Please Close this window for security reasons</p>
+                     <a href="index.html"><button className='div-button'>Go to Login Page</button></a>
+                     </div>
+             </div>
+                     )
+             }
+         }
+         
+         ReactDOM.render(<Logout />,document.querySelector('#Logout'))
+      </script>
+   </body>
+</html>
